@@ -8,7 +8,7 @@
 - Create the database. The database file will be created in a folder in Local App Data called TSD_<my name> (subsitute with my real name)
   - `dotnet ef database update --project ./Orders.Infrastructure --startup-project ./Orders.Api`
 - Run the solution
--   `dotnet run --project Orders.Api`
+  - `dotnet run --project Orders.Api`
 
 ## Assumptions
 - Orders can be updated but not deleted
